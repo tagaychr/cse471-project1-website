@@ -11,7 +11,8 @@
     <p>Effect is implemented by creating an Effect base class that is derived from CInstrument (which is derived from CAUdioNode) so I'm able to 
         access the protected attributes of CAudioNode.
         All effects in their own class CEffect will have access to these attributes in Process method. This process method will be called if it was read in from the score files.
-        CSynthesizer will have boolean variables set to true if found in the file and will call the effect's Process function if true.
+        CSynthesizer will have boolean variables for each effect and it set to true if found in the file and will call the effect's Process function if true and in the correct measure/beat.
+
     </p>
 
     <h3>Grading Criteria</h3>
@@ -47,7 +48,7 @@
         &lt;/instrument&gt;
     </pre>
     <p>
-        This is an example of Reverb. 
+        This is an example of all three effects. 
         If I want to add an effect, I create a new instrument with the instrument attribute as the effect (in this example Reverb).
         Similar to Subtractive, I create a note tag and write which measure and beat I want the effect to play.
         Unlike Subtractive or (other instruments) I do not include a note or duration of the effect
