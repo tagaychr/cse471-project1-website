@@ -396,10 +396,10 @@
   <instrument instrument="Chorus">
     
     	<note measure="117" beat="5" delay=".5" wet=".05" dry=".3" />
-	<note measure="118" beat="5" delay=".5" wet=".6" dry=".5" />
+		<note measure="118" beat="5" delay=".5" wet=".6" dry=".5" />
     	<note measure="119" beat="5" delay=".5" wet=".8" dry=".2" />
     	<note measure="120" beat="5" delay=".5" wet=".05" dry=".3" />
-	<note measure="121" beat="5" delay=".5" wet=".6" dry=".5" />
+		<note measure="121" beat="5" delay=".5" wet=".6" dry=".5" />
     	
   </instrument>
   <instrument instrument="Reverb">
