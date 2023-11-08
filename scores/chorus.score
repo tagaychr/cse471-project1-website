@@ -1,4 +1,7 @@
-<note measure="1" beat="2" duration="0.33" note="F4" type="Triangle"/>
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="140" beatspermeasure="2">
+     <instrument instrument="Subtractive">
+          <note measure="1" beat="2" duration="0.33" note="F4" type="Triangle"/>
           <note measure="1" beat="2.33" duration="0.33" note="G4" type="Triangle"/>
           <note measure="1" beat="2.6" duration="0.33" note="A4" type="Triangle"/>
 
@@ -69,3 +72,14 @@
           <note measure="16" beat="1" duration="2" note="Bb4" type="Triangle"/>
           <note measure="16" beat="1" duration="2" note="F4" type="Triangle"/>
           <note measure="16" beat="1" duration="2" note="D4" type="Triangle"/>
+
+		
+
+     </instrument>
+     <!-- EFFECTS -->
+  <instrument instrument="Chorus">
+    <note measure="11" beat="3" delay=".5" wet=".06" dry=".5" />
+    <note measure="12" beat="3" delay=".5" wet=".08" dry="0" />
+    <note measure="13" beat="3" delay=".5" wet=".05" dry=".3" />
+  </instrument>
+</score>
