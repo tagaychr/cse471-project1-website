@@ -13,24 +13,54 @@
         All effects in their own class CEffect will have access to these attributes in Process method. This process method will be called if it was read in from the score files.
         CSynthesizer will have boolean variables set to true if found in the file and will call the effect's Process function if true.
     </p>
-    <p>Here are the effects. Click the link to see the score and wav files</p>
+
+    <h3>Grading Criteria</h3>
     <ul>
         <li>
-            <a href="./scores/chorus.score">Chorus score file</a>
-            <!--<a href="chorus.html">Chorus</a>-->
+            Component passes audio
         </li>
         <li>
-            <a href="./scores/flange.score">Flange score file</a>
-            <!--<a href="scores/flange.html">Flange</a>-->
+            1 Effect
         </li>
         <li>
-            <a href="./scores/reverb.score">Reverb score file</a>
-            <!--<a href="scores/reverb.html">Reverb</a>-->
+            3 Effects
         </li>
     </ul>
 
-    <h2>Score File-Musical Selection</h2>
-    <p>Sound of Music score file. Includes Subtractive as the instrument and all three effects (Chorus, Reverb, Flange)</p>
+    <h3>Score Format</h3>
+    <pre>
+        &lt;!-- EFFECTS --&gt;
+        &lt;instrument instrument=&quot;Reverb&quot;&gt;
+                &lt;note measure=&quot;3&quot; delay=&quot;.0025&quot; wet=&quot;1&quot; dry=&quot;1&quot; reverbTime=&quot;0.5&quot; /&gt;
+                &lt;note measure=&quot;4&quot; delay=&quot;.0025&quot; wet=&quot;1&quot; dry=&quot;1&quot; reverbTime=&quot;0.7&quot; /&gt;
+                &lt;note measure=&quot;5&quot; delay=&quot;.0025&quot; wet=&quot;1&quot; dry=&quot;1&quot; reverbTime=&quot;.5&quot; /&gt;
+        &lt;/instrument&gt;
+    </pre>
+    <p>This is an example of Reverb. Delay represents delay variance, wet represents wet, dry represents dry (both used to calculate output frame). But reverb has attribute reverbTime.
+        This represents how long the 'echo' sounds last as the sound decays. 
+        Reverb is the only effect with this attribute.
+        Chorus and Flange have the same attributes as Reverb besides ReverbTime.
+    </p>
+    <p>The rest of the attributes are same as ToneInstrument. Note determines what note is played. Measure and beat determines what measure and beat in mesure the note will be played. Duration determines how long the note will be played</p>
+    <h3>Files</h3>
+    <p>Click the link to see the score and wav files</p>
+    <ul>
+        <li>
+            <p>Chorus <a href="./scores/chorus.score"> Score</a> <a href="./waves/original.wav">Wave</a></p>
+            <!--<a href="chorus.html">Chorus</a>-->
+            <p>Chorus was implemented by....</p>
+        </li>
+        <li>
+            <p>Flange <a href="./scores/flange.score"> Score</a> <a href="./waves/original.wav">Wave</a></p>
+            <!--<a href="scores/flange.html">Flange</a>-->
+            <p>Flange was implemented by....</p>
+        </li>
+        <li>
+            <p>Reverb <a href="./scores/reverb.score"> Score</a> <a href="./waves/original.wav">Wave</a></p>
+            <!--<a href="scores/reverb.html">Reverb</a>-->
+            <p>Reverb was implemented by....</p>
+        </li>
+    </ul>
 
 </body>
 
