@@ -36,12 +36,17 @@
                 &lt;note measure=&quot;5&quot; delay=&quot;.0025&quot; wet=&quot;1&quot; dry=&quot;1&quot; reverbTime=&quot;.5&quot; /&gt;
         &lt;/instrument&gt;
     </pre>
-    <p>This is an example of Reverb. Delay represents delay variance, wet represents wet, dry represents dry (both used to calculate output frame). But reverb has attribute reverbTime.
+    <p>
+        This is an example of Reverb. 
+        If I want to add an effect, I create a new instrument with the instrument attribute as the effect (in this example Reverb).
+        Similar to Subtractive, I create a note tag and write which measure and beat I want the effect to play.
+        Unlike Subtractive or (other instruments) I do not include a note or duration of the effect
+        
+        Delay represents delay variance, wet represents wet, dry represents dry (both used to calculate output frame). But reverb has attribute reverbTime.
         This represents how long the 'echo' sounds last as the sound decays. 
         Reverb is the only effect with this attribute.
         Chorus and Flange have the same attributes as Reverb besides ReverbTime.
     </p>
-    <p>The rest of the attributes are same as ToneInstrument. Note determines what note is played. Measure and beat determines what measure and beat in mesure the note will be played. Duration determines how long the note will be played</p>
     <h3>Files</h3>
     <p>Click the link to see the score and wav files</p>
     <ul>
