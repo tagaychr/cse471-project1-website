@@ -15,19 +15,9 @@
         Subtractive has a SubWave member variable that holds the wavetable the instrument plays.
         There are three types of waves: Sawtooth, Square, and Triangle. This is set when the Subtractive Note is set.
     </p>
-    <ul>
-        <li>
-            Sawtooth
-        </li>
-        <li>
-            Square
-        </li>
-        <li>
-            Triangle
-        </li>
-    </ul>
+    
 
-    <p>Grading Criteria</p>
+    <h3>Grading Criteria</h3>
     <ul>
         <li>
             Waveform playback from tables
@@ -40,16 +30,27 @@
         </li>
     </ul>
 
-    <h2>Score Format</h2>
+    <h3>Score Format</h3>
     <pre>
         &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         &lt;score bpm=&quot;180&quot; beatspermeasure=&quot;4&quot;&gt;
             &lt;instrument instrument=&quot;Subtractive&quot;&gt;
-                &lt;!-- Doe a dear a a female deer --&gt;
                 &lt;note measure=&quot;1&quot; beat=&quot;1&quot; duration=&quot;3&quot; note=&quot;C4&quot; type=&quot;Triangle&quot;/&gt;
     </pre>
-
-    <h2>Files</h2>
+    <p>The subtractive score file format will have one new attribute type that specifies the type of wave table</p>
+    <ul>
+        <li>
+            Sawtooth
+        </li>
+        <li>
+            Square
+        </li>
+        <li>
+            Triangle
+        </li>
+    </ul>
+    <p>The rest of the attributes are same as ToneInstrument. Note determines what note is played. Measure and beat determines what measure and beat in mesure the note will be played. Duration determines how long the note will be played</p>
+    <h3>Files</h3>
     <p>Includes Subtractive as the instrument with all three wave types</p>
     <a href="scores/subtractive.score">Score File </a>
     <a href="waves/subtractive.wav">Wave file</a>
