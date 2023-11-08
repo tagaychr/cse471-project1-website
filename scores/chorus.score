@@ -39,8 +39,8 @@
      </instrument>
      <!-- EFFECTS -->
   <instrument instrument="Chorus">
-    <note measure="3" beat="3" delay=".5" wet=".06" dry=".5" />
-    <note measure="4" beat="3" delay=".5" wet=".08" dry="0" />
-    <note measure="5" beat="3" delay=".5" wet=".05" dry=".3" />
+    <note measure="3" delay=".5" wet=".06" dry=".5" />
+    <note measure="4" delay=".5" wet=".08" dry="0" />
+    <note measure="5" delay=".5" wet=".05" dry=".3" />
   </instrument>
 </score>
