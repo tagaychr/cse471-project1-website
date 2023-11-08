@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="120" beatspermeasure="4">
+     <instrument instrument="Subtractive">
+          <!-- Doe a dear a a female deer -->
+		<note measure="1" beat="1" duration="3" note="C4" type="Triangle"/>
+          	<note measure="1" beat="4" duration="1" note="D4" type="Triangle"/>
+
+          	<note measure="2" beat="1" duration="3" note="E4" type="Triangle"/>
+          	<note measure="2" beat="4" duration="1" note="C4" type="Triangle"/>
+          	
+		<note measure="3" beat="1" duration="2" note="E4" type="Triangle"/>
+          	<note measure="3" beat="3" duration="2" note="C4" type="Triangle"/>
+		
+		<note measure="4" beat="1" duration="4" note="E4" type="Triangle"/>
+
+		<!--Ray a drop of golden sun -->
+		<note measure="5" beat="1" duration="3" note="D4" type="Sawtooth"/>
+		<note measure="5" beat="4" duration="1" note="E4" type="Sawtooth"/>
+		
+		<note measure="6" beat="1" duration="1" note="F4" type="Sawtooth"/>
+		<note measure="6" beat="2" duration="1" note="F4" type="Sawtooth"/>
+		<note measure="6" beat="3" duration="1" note="E4" type="Sawtooth"/>
+		<note measure="6" beat="4" duration="1" note="D4" type="Sawtooth"/>
+		
+		<note measure="7" beat="1" duration="4" note="F4" type="Sawtooth"/>
+		<note measure="8" beat="1" duration="4" note="F4" type="Sawtooth"/>
+
+		<!--Me a name i call my self-->
+		<note measure="9" beat="1" duration="3" note="E4" type="Square"/>
+          	<note measure="9" beat="4" duration="1" note="F4" type="Square"/>
+
+          	<note measure="10" beat="1" duration="3" note="G4" type="Square"/>
+          	<note measure="10" beat="4" duration="1" note="E4" type="Square"/>
+          	
+		<note measure="11" beat="1" duration="2" note="G4" type="Square"/>
+          	<note measure="11" beat="3" duration="2" note="E4" type="Square"/>
+		
+		<note measure="12" beat="1" duration="4" note="G4" type="Square"/>
+
+		<!--Fa a long long way to run -->
+		<note measure="13" beat="1" duration="3" note="F4" type="Triangle"/>
+		<note measure="13" beat="4" duration="1" note="G4" type="Triangle"/>
+		
+		<note measure="14" beat="1" duration="1" note="A4" type="Triangle"/>
+		<note measure="14" beat="2" duration="1" note="A4" type="Triangle"/>
+		<note measure="14" beat="3" duration="1" note="G4" type="Triangle"/>
+		<note measure="14" beat="4" duration="1" note="F4" type="Triangle"/>
+		
+		<note measure="15" beat="1" duration="4" note="A4" type="Triangle"/>
+		<note measure="16" beat="1" duration="4" note="A4" type="Triangle"/>
+
+		<!-- Sew a needle pulling thread....-->
+
+		<note measure="17" beat="1" duration="3" note="G4" type="Sawtooth"/>
+		<note measure="17" beat="4" duration="1" note="C4" type="Sawtooth"/>
+		
+		<note measure="18" beat="1" duration="1" note="D4" type="Sawtooth"/>
+		<note measure="18" beat="2" duration="1" note="E4" type="Sawtooth"/>
+		<note measure="18" beat="3" duration="1" note="F4" type="Sawtooth"/>
+		<note measure="18" beat="4" duration="1" note="G4" type="Sawtooth"/>
+		
+		<note measure="19" beat="1" duration="4" note="A4" type="Sawtooth"/>
+		<note measure="19" beat="1" duration="3.5" note="A4" type="Sawtooth"/>
+     </instrument>
+     <!-- EFFECTS -->
+  <instrument instrument="Reverb">
+    <note measure="6" delay=".0025" wet="1" dry="1" reverbTime="0.5" />
+    <note measure="7" delay=".0025" wet="1" dry="1" reverbTime="0.7" />
+    <note measure="8" delay=".0025" wet="1" dry="1" reverbTime="3" />
+  </instrument>
+</score>

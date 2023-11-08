@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="120" beatspermeasure="2">
+     <instrument instrument="Subtractive">
+          <note measure="1" beat="2" duration="0.33" note="F4" type="Triangle"/>
+          <note measure="1" beat="2.33" duration="0.33" note="G4" type="Triangle"/>
+          <note measure="1" beat="2.6" duration="0.33" note="A4" type="Triangle"/>
+
+          <note measure="2" beat="1" duration="0.5" note="Bb4" type="Triangle"/>
+          <note measure="2" beat="1" duration="0.5" note="G4" type="Triangle"/>
+          <note measure="2" beat="1" duration="0.5" note="Eb4" type="Triangle"/>
+
+          <note measure="3" beat="1" duration="0.5" note="Bb4" type="Triangle"/>
+          <note measure="3" beat="1" duration="0.5" note="G4" type="Triangle"/>
+          <note measure="3" beat="1" duration="0.5" note="Eb4" type="Triangle"/>
+
+          <note measure="4" beat="1" duration="0.5" note="Bb4" type="Triangle"/>
+          <note measure="4" beat="1" duration="0.5" note="D4" type="Triangle"/>
+          <note measure="4" beat="1" duration="0.5" note="F4" type="Triangle"/>
+
+          <note measure="4" beat="2" duration="0.5" note="Bb4" type="Triangle"/>
+          <note measure="4" beat="2" duration="0.5" note="G4" type="Triangle"/>
+          <note measure="4" beat="2" duration="0.5" note="Eb4" type="Triangle"/>
+
+          <note measure="5" beat="1" duration="0.5" note="Bb4" type="Triangle"/>
+          <note measure="5" beat="1" duration="0.5" note="D4" type="Triangle"/>
+          <note measure="5" beat="1" duration="0.5" note="F4" type="Triangle"/>
+
+          <note measure="6" beat="1" duration="0.5" note="G4" type="Triangle"/>
+          <note measure="6" beat="1.5" duration="0.5" note="F#4" type="Triangle"/>
+          <note measure="6" beat="2" duration="0.5" note="G4" type="Triangle"/>
+          <note measure="6" beat="2.5" duration="0.5" note="G#4" type="Triangle"/>
+
+          <note measure="7" beat="1" duration="1" note="A4" type="Triangle"/>
+          <note measure="7" beat="2" duration="1" note="F4" type="Triangle"/>
+
+          <note measure="8" beat="1" duration="2" note="Bb4" type="Triangle"/>
+          <note measure="8" beat="1" duration="2" note="F4" type="Triangle"/>
+          <note measure="8" beat="1" duration="2" note="D4" type="Triangle"/>
+     </instrument>
+     <!-- EFFECTS -->
+  <instrument instrument="Chorus">
+    <note measure="3" beat="3" delay=".5" wet=".06" dry=".5" />
+    <note measure="4" beat="3" delay=".5" wet=".08" dry="0" />
+    <note measure="5" beat="3" delay=".5" wet=".05" dry=".3" />
+  </instrument>
+</score>
